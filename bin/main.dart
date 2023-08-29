@@ -46,8 +46,8 @@ void main(List<String> arguments) async {
   List<String> name_clients = ["azka"];
 
   /// telegram database
-  int api_id = 23662616;
-  String api_hash = 'b7537d62c81b5c46dd0f20f2df297061';
+  int api_id = 00000;
+  String api_hash = '00000';
   int owner_chat_id =
       int.tryParse(Platform.environment["owner_chat_id"] ?? "0") ?? 0;
   Tdlib tg = Tdlib(
