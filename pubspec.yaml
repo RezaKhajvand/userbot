@@ -1,0 +1,21 @@
+name: main
+homepage: https://youtube.com/@azkadev
+repository: https://github.com/azkadev
+issue_tracker: https://github.com/azkadev/azkadev
+documentation: https://youtube.com/@azkadev
+version: 0.0.0
+publish_to: none
+environment:
+  sdk: ">=2.19.4 <4.0.0"
+
+dependencies:
+  telegram_client: ^0.5.7
+  path: ^1.8.3
+  galaxeus_lib: ^0.0.89
+  mason_logger: ^0.2.8
+  dio: ^5.1.2
+  shamsi_date: ^1.0.1
+
+dev_dependencies:
+  lints: ^2.1.0
+  packagex: ^0.0.28
